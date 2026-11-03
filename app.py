@@ -22,7 +22,7 @@ app = Flask(__name__)  # Creaed the flask object and stored in app and created a
 def home():
     return jsonify(
         {
-            "message" : "App is running."
+            "message" : "App is runninggggggg."
         }
     )
 
