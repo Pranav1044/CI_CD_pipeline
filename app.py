@@ -11,7 +11,7 @@ model = joblib.load("model.pkl")
 # ValueError: dtype='numeric' is not compatible with arrays of bytes/strings.Convert your data to numeric values explicitly instead.
 
 from flask import Flask,request,jsonify
-from prometheus_flask_exporter import PrometheusMetrics # PrometheusMetrics is a class
+
 
 app = Flask(__name__)  # Creaed the flask object and stored in app and created a flask application
 
